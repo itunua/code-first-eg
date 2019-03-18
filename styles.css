@@ -1,11 +1,15 @@
-html{
+body{
   background: url("milkyway.jpg");
+  color: white;
 }
 header{
   margin: 0;
 
   background-position: right;
   background-size: cover;
+ }
+ head {
+   color: white;
  }
  img{
    display: flex;
@@ -16,8 +20,8 @@ header{
    height: 250px;
  }
 h1,h2 {
-  text-align: left;
-  color: #86CB92;
+  text-align: center;
+  color: white;
   text-transform: uppercase;
   font-family: fantasy;
 }
@@ -36,7 +40,18 @@ text-align: center;
 font-size: 2.4em;
 cursor: pointer;
 border-radius: 22px;
+color: white;
 }
 li {
   color: white;
+}
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+div {
+  justify-content:space-evenly;
 }
