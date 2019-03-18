@@ -1,9 +1,9 @@
 html{
-  background-color: #0F0A0A;
+  background: url("milkyway.jpg");
 }
 header{
   margin: 0;
-  background-image: url("milkyway.jpg");
+
   background-position: right;
   background-size: cover;
  }
@@ -36,4 +36,7 @@ text-align: center;
 font-size: 2.4em;
 cursor: pointer;
 border-radius: 22px;
+}
+li {
+  color: white;
 }
