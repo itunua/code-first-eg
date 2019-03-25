@@ -12,7 +12,7 @@ header{
    color: white;
  }
  img{
-   display: flex;
+   display: left;
    padding: 20px;
    margin: 0 auto;
    border-radius: 150px;
