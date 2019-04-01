@@ -1,0 +1,87 @@
+@import url('https://db.onlinewebfonts.com/c/3d81921f1fdc36b2465117c4acbc3fbd?family=Syncopate');
+
+
+      body{
+        background-image: url(../media/sky-wide.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #000;
+      }
+
+
+
+
+            /* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(0,0,0,0.5);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color:  rgba(242,242,242,0.5);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgba(4,250,195,0.15);
+  color: rgba(255,255,255,0.75);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgba(4,250,195,0.15);
+  color: rgba(242,242,242,0.7);
+}
+
+
+                .h1,.h2,.h4,.h5,.h6,h1,h2,h4,h5,h6{
+                  font-family:inherit;
+                  font-weight:500;
+                  line-height:1.1;
+                  color:#fff;
+                }
+
+                .h3, h3 {
+                  font-family:inherit;
+                  font-weight:200;
+                  line-height:1.1;
+                  color:#fff;
+
+                }
+
+.jumbotron1 {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+
+    border-radius: .3rem;
+
+
+}
+
+  .img-thumbnail {
+                  -webkit-transition:all .2s ease-in-out;
+                  -o-transition:all .2s ease-in-out;
+                  transition:all .2s ease-in-out;
+      }
+
+  .thumbnail {
+        transition: 0.1s ease;
+      }
+
+  .thumbnail:hover {
+         transform: scale(1.2);
+    }
+
+.title {
+  font-family: 'Syncopate';
+  font: 900;
+}
+
+/*# sourceMappingURL=bootstrap.min.css.map */
