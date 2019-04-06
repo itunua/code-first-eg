@@ -52,8 +52,13 @@
                   font-family:inherit;
                   font-weight:200;
                   line-height:1.1;
-                  color:#fff;
+                  color:#fff;}
 
+                .h5, h5{
+                  font-family:inherit;
+                  font-weight:100;
+                  line-height:1.1;
+                  color:#fff;}
                 }
 
 .jumbotron1 {
