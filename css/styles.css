@@ -1,102 +1,130 @@
-
-header{
-  margin: 0;
-
-  background-position: right;
-  background-size: cover;
- }
-
- body {
-
-     background-color: #cccccc;
-     background-image: url("images/milkyway.jpg");
- }
-
- img{
-   display: flex;
-   padding: 20px;
-   margin: 0 auto;
-
- }
+@import url('https://db.onlinewebfonts.com/c/3d81921f1fdc36b2465117c4acbc3fbd?family=Syncopate');
 
 
-#round {
-  height: 250px;
-   border-radius: 125px;
-}
+      body{
+        background-image: url(../media/sky-wide.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #000;
+      }
 
-h1,h2 {
+
+
+
+
+
+
+
+.h1,.h2,.h4,.h5,.h6,h1,h2,h4,h5,h6{
+                  font-family:inherit;
+                  font-weight:500;
+                  line-height:1.1;
+                  color:#fff;
+                }
+
+  .h3, h3 {
+          font-family:inherit;
+          font-weight:200;
+                  line-height:1.1;
+                  color:#fff;
+
+      }
+
+.p, p {
   text-align: left;
-  color: #86CB92;
-  text-transform: uppercase;
-  font-family: fantasy;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 300;
+
 }
-h1{
-  font-size: 2.5em;
+
+
+
+.jumbotron1 {
+    padding: 2rem 1rem;
+    margin-top: 50px;
+    margin-bottom: 2rem;
+    color: rgb(255, 255, 255);
+    border-radius: .3rem;
+
 }
-h2{
-  font-size: 1.5em;
+
+.light {
+  font-family:inherit;
+  font-weight:200;
+  line-height:1.1;
+  color:#fff;
+
 }
-button{
-font-weight: bold;
-font-family: fantasy;
-border: none;
-padding: 15px 25px;
-text-align: center;
-font-size: 2.4em;
-cursor: pointer;
-border-radius: 22px;
+
+/*# image styling + size */
+  .img-thumbnail {
+                  -webkit-transition:all .2s ease-in-out;
+                  -o-transition:all .2s ease-in-out;
+                  transition:all .2s ease-in-out;
+      }
+
+  .thumbnail {
+        transition: 0.1s ease;
+      }
+
+  .thumbnail:hover {
+         transform: scale(1.2);
+    }
+
+    .logo {
+      max-width: 35%;
+      height: auto;
+    }
+
+    img {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    }
+
+
+.title {
+  font-family: 'Syncopate';
+  text-decoration: none;
+  font: 900;
+  font-size: 5rem;
 }
-li {
-  color: white;
+
+.defined {
+
+    border-left-style: solid;
+    border-left-color: #fff;
+    border-left-width: thin;
+
 }
-#the-red-planet {
-  color: red;
-  font-size: 50px;
-  font-family: Arial;
+
+.darken {
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
+
+
 }
-#smaller-sun-logo {
-width:700px;
-height: 590px;
-padding: 25px 50px 75px 100px;
+
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .defined {
+    border-left: none;
+    border-top-style: solid;
+    border-top-color: #fff;
+    border-top-width: thin;
+
+  }
+.spaced {
+  padding-top: 15px;
 }
-.activities {
-font-size: 50px;
-text-align: center;
-color: white;
-font-family: serif;
+
 }
-#necessary-items {
-color:   #ff1a1a;
-font-family: fantasy;
-}
-.myButton {
-background-color:#456ac7;
--moz-border-radius:28px;
--webkit-border-radius:28px;
-border-radius:28px;
-border:1px solid #1932ab;
-display:inline-block;
-cursor:pointer;
-color:#ffffff;
-font-family:Georgia;
-font-size:23px;
-padding:23px 31px;
-text-decoration:none;
-text-shadow:0px 1px 0px #00ffea;
-display: center;
-margin-left:600px;
-}
-.myButton:hover {
-background-color:#09afeb;
-}
-.myButton:active {
-position:relative;
-top:1px;
-}
-img {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
+
+/*# sourceMappingURL=bootstrap.min.css.map */

@@ -12,10 +12,13 @@
 
 
 
-            /* Add a black background color to the top navigation */
+  /* Add a black background color to the top navigation */
 .topnav {
   background-color: rgba(0,0,0,0.5);
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 /* Style the links inside the navigation bar */
@@ -27,6 +30,12 @@
   text-decoration: none;
   font-size: 17px;
 }
+
+#right {
+
+  float: right;
+
+  }
 
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -40,31 +49,73 @@
   color: rgba(242,242,242,0.7);
 }
 
+/* added starts here*/
 
-                .h1,.h2,.h4,.h5,.h6,h1,h2,h4,h5,h6{
+
+
+/* added ends here*/
+
+/* This makes the topnav
+look good on small screens (display the links vertically instead of horizontally) */
+
+@media screen and (max-width: 900px) {
+  .topnav {
+    position:relative;
+
+  }
+/*  .topnav a:not(:first-child) {display: none;}*/
+  .topnav a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  #right {
+    float: right;
+    display: inline-flex;
+    text-align: right;
+  }
+}
+
+
+
+
+
+.h1,.h2,.h4,.h5,.h6,h1,h2,h4,h5,h6{
                   font-family:inherit;
                   font-weight:500;
                   line-height:1.1;
                   color:#fff;
                 }
 
-                .h3, h3 {
-                  font-family:inherit;
-                  font-weight:200;
+  .h3, h3 {
+          font-family:inherit;
+          font-weight:200;
                   line-height:1.1;
                   color:#fff;
 
-                }
+      }
+
+
+
 
 .jumbotron1 {
     padding: 2rem 1rem;
+    margin-top: 40px;
     margin-bottom: 2rem;
-
+    color: rgb(255, 255, 255);
     border-radius: .3rem;
-
 
 }
 
+.light {
+  font-family:inherit;
+  font-weight:200;
+  line-height:1.1;
+  color:#fff;
+
+}
+
+/*# image styling + size */
   .img-thumbnail {
                   -webkit-transition:all .2s ease-in-out;
                   -o-transition:all .2s ease-in-out;
@@ -79,58 +130,24 @@
          transform: scale(1.2);
     }
 
+    .logo {
+      max-width: 35%;
+      height: auto;
+    }
+
+    img {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    }
+
+
 .title {
   font-family: 'Syncopate';
+  text-decoration: none;
   font: 900;
 }
-#the-red-planet {
-  color: red;
-  font-size: 50px;
-  font-family: Arial;
-}
-#smaller-sun-logo {
-height: 390px;
-padding: 10px 20px 10px 20px;
-}
-.activities {
-font-size: 50px;
-text-align: center;
-color: white;
-font-family: serif;
-}
-#necessary-items {
-color:   #ff1a1a;
-font-family: fantasy;
-}
-.myButton {
-background-color:#456ac7;
--moz-border-radius:28px;
--webkit-border-radius:28px;
-border-radius:28px;
-border:1px solid #1932ab;
-display:inline-block;
-cursor:pointer;
-color:#ffffff;
-font-family:Georgia;
-font-size:23px;
-padding:23px 31px;
-text-decoration:none;
-text-shadow:0px 1px 0px #00ffea;
-display: center;
-margin-left:600px;
-}
-.myButton:hover {
-background-color:#09afeb;
-}
-.myButton:active {
-position:relative;
-top:1px;
-}
-img {
-padding-top: 10px;
-padding-right: 10px;
-padding-bottom: 10px;
-padding-left: 10px;
-}
+
 
 /*# sourceMappingURL=bootstrap.min.css.map */
