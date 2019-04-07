@@ -91,12 +91,21 @@ look good on small screens (display the links vertically instead of horizontally
           font-family:inherit;
           font-weight:200;
                   line-height:1.1;
-                  color:#fff;
+                  color:#fff;}
 
+<<<<<<< HEAD
       }
 
 
 
+=======
+                .h5, h5{
+                  font-family:inherit;
+                  font-weight:100;
+                  line-height:1.1;
+                  color:#fff;}
+                }
+>>>>>>> 5f065f9f0fc1502eaf3e9405dae2af21c6867a33
 
 .jumbotron1 {
     padding: 2rem 1rem;
