@@ -129,4 +129,12 @@
 
 }
 
+#rocket {
+  transition: 0.2s ease;
+}
+
+#rocket:hover {
+  transform: rotate(45deg);
+}
+
 /*# sourceMappingURL=bootstrap.min.css.map */
