@@ -1,5 +1,8 @@
-@import url('https://db.onlinewebfonts.com/c/3d81921f1fdc36b2465117c4acbc3fbd?family=Syncopate');
-
+/* @import url('https://db.onlinewebfonts.com/c/3d81921f1fdc36b2465117c4acbc3fbd?family=Syncopate'); */
+@font-face {
+  src: url(../font/syncopate-v10-latin-700.woff);
+  font-family: 'branded';
+}
 
       body{
         background-image: url(../media/sky-wide.jpg);
@@ -16,9 +19,11 @@
 
 
 
+.h1,h1{
+  font-family: branded;
+}
 
-
-.h1,.h2,.h4,.h5,.h6,h1,h2,h4,h5,h6{
+.h2,.h4,.h5,.h6,h2,h4,h5,h6{
                   font-family:inherit;
                   font-weight:500;
                   line-height:1.1;
@@ -89,7 +94,7 @@
 
 
 .title {
-  font-family: 'Syncopate';
+  font-family: 'branded';
   text-decoration: none;
   font: 900;
   font-size: 5rem;
